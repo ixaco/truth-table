@@ -1,4 +1,4 @@
-<tables>
+<store>
   <types>
     <type id="1">Vegetables</type>      <!-- Sabzavotlar -->
     <type id="2">Fruits</type>          <!-- Mevalar -->
@@ -149,6 +149,6 @@
       <details value="13"></details>
     </item>
   </available>
-</tables>
+</store>
 
 <!-- Birinchi (truth table) ni bajargan edim lekin mukammal chiqmadi. Keyin (Types of food) ni bajardim. Shuning uchun loyiha nomi (truth table) ligicha qoldi. -->
