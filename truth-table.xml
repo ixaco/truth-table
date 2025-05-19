@@ -1,0 +1,154 @@
+<tables>
+  <types>
+    <type id="1">Vegetables</type>      <!-- Sabzavotlar -->
+    <type id="2">Fruits</type>          <!-- Mevalar -->
+    <type id="3">Cereals</type>         <!-- Yormalar -->
+    <type id="4">Tubers</type>          <!-- Ildizlilar -->
+  </types>
+
+  <parameters>
+    <parameter id="1">Color</parameter>       <!-- rang -->
+    <parameter id="2">Origin</parameter>      <!-- Kelib chiqishi (Yani qaysi davla -->
+    <parameter id="3">Price</parameter>       <!-- Narxi(Narxlarni aniq yozmadim)-->
+  </parameters>
+
+  <values>
+    <value id="1" parameter="1">Red</value>
+    <value id="2" parameter="1">Green</value>
+    <value id="3" parameter="1">Yellow</value>
+    <value id="4" parameter="1">Purple</value>
+    <value id="5" parameter="1">Orange</value>
+
+    <value id="6" parameter="2">Asia</value>
+    <value id="7" parameter="2">America</value>
+    <value id="8" parameter="2">Europe</value>
+    <value id="9" parameter="2">Africa</value>
+
+    <value id="10" parameter="3">25000-40000</value> <!-- Mahsulot narxlari shu atrofida -->
+    <value id="11" parameter="3">6000-8000</value>
+    <value id="12" parameter="3">7000-10000</value>
+    <value id="13" parameter="3">4000-8000</value>
+    <value id="14" parameter="3">10000-15000</value>
+    <value id="15" parameter="3">10000-20000</value>
+    <value id="16" parameter="3">15000-25000</value>
+
+  </values>
+
+  <products>
+    <product id="1" type="1">
+      <n>Tomato</n>   <!-- Pomidor -->
+    </product>
+    <product id="2" type="1">
+      <n>Cabbage</n>     <!-- Karam -->
+    </product>
+    <product id="3" type="1">
+      <n>Spinach</n>       <!-- Ismaloq -->
+    </product>
+
+    <product id="4" type="2">
+      <n>Orange</n>     <!-- Apelsin -->
+    </product>
+    <product id="5" type="2">
+      <n>Strawberry</n>        <!-- Qulupnay -->
+    </product>
+    <product id="6" type="2">
+      <n>Banana</n>          <!-- Banan -->
+    </product>
+
+    <product id="7" type="3">
+      <n>Wheat</n>        <!-- Bug'doy -->
+    </product>
+    <product id="8" type="3">
+      <n>Rice</n>            <!-- Guruch -->
+    </product>
+    <product id="9" type="3">
+      <n>Corn</n>        <!-- Makkajo'xori -->
+    </product>
+
+    <product id="10" type="4">
+      <n>Potato</n>       <!-- Kartoshka -->
+    </product>
+    <product id="11" type="4">
+      <n>Carrot</n>         <!-- Sabzi -->
+    </product>
+    <product id="12" type="4">
+      <n>Sweet Potato</n>         <!-- Shakarqamish -->
+    </product>
+  </products>
+
+  <available>
+    <item id="1">
+      <details value="1"></details>
+      <details value="8"></details>
+      <details value="10"></details>
+    </item>
+
+    <item id="2">
+      <details value="2"></details>
+      <details value="8"></details>
+      <details value="12"></details>
+    </item>
+
+    <item id="3">
+      <details value="2"></details>
+      <details value="6"></details>
+      <details value="14"></details>
+    </item>
+
+    <item id="4">
+      <details value="5"></details>
+      <details value="6"></details>
+      <details value="16"></details>
+    </item>
+
+    <item id="5">
+      <details value="1"></details>
+      <details value="8"></details>
+      <details value="10"></details>
+    </item>
+
+    <item id="6">
+      <details value="3"></details>
+      <details value="9"></details>
+      <details value="16"></details>
+    </item>
+
+    <item id="7">
+      <details value="3"></details>
+      <details value="8"></details>
+      <details value="13"></details>
+    </item>
+
+    <item id="8">
+      <details value="3"></details>
+      <details value="6"></details>
+      <details value="15"></details>
+    </item>
+
+    <item id="9">
+      <details value="3"></details>
+      <details value="7"></details>
+      <details value="15"></details>
+    </item>
+
+    <item id="10">
+      <details value="3"></details>
+      <details value="7"></details>
+      <details value="12"></details>
+    </item>
+
+    <item id="11">
+      <details value="5"></details>
+      <details value="6"></details>
+      <details value="11"></details>
+    </item>
+
+    <item id="12">
+      <details value="2"></details>
+      <details value="6"></details>
+      <details value="13"></details>
+    </item>
+  </available>
+</tables>
+
+<!-- Birinchi (truth table) ni bajargan edim lekin mukammal chiqmadi. Keyin (Types of food) ni bajardim. Shuning uchun loyiha nomi (truth table) ligicha qoldi. -->
